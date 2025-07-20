@@ -29,15 +29,15 @@ def generate_copy(data: CopyInput):
         "about": about
     }
 
-# Test block
-client = TestClient(app)
+# # Test block
+# client = TestClient(app)
 
-sample_input = {
-    "service": "Website Copywriting",
-    "audience": "SaaS Startup Founders",
-    "tone": "Professional"
-}
+# sample_input = {
+#     "service": "Website Copywriting",
+#     "audience": "SaaS Startup Founders",
+#     "tone": "Professional"
+# }
 
-response = client.post("/generate_copy", json=sample_input)
-print(response.status_code)
-print(response.json())
+# response = client.post("/generate_copy", json=sample_input)
+# print(response.status_code)
+# print(response.json())
