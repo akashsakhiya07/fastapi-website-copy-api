@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 import random
-import httpx  # <- ye httpx add karna jaruri hai
+import httpx  
 
 app = FastAPI()
 
